@@ -29,6 +29,27 @@ p {
   margin: 0;
 }
 
+.nav {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav a img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.nav a p {
+  text-align: center;
+}
+
 .desc {
   display: grid;
   grid-template-columns: 2fr 3fr;
